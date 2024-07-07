@@ -1,0 +1,305 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Gradiante superior*/
+
+main{
+	font-family: "Poppins", sans-serif;
+}
+.gradiant{
+    background: linear-gradient(to right, #FF4500, #FF8C00, #FFD700, #FF00FF);
+    padding: 5px;
+}
+
+/*Navegacion*/
+.navegationHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px #0000002a solid;
+    padding-left: 180px;
+    margin-bottom: 20px;
+}
+.navegation ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+/*Buscador*/
+.navegacionBuscador{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	margin: 20px 0px;
+	gap: 20px;
+}
+
+.navegacionBuscador img{
+	height: 40px;
+}
+
+.search {
+	background-color: #8080802d;
+	height: 100%;
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.search img{
+	height: 20px;
+}
+
+.search button{
+	height: 100%;
+	width: 100px;
+	color: white;
+	font-style: bold;
+	background-color: black;
+	border: none;
+}
+
+.buscador{
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	font-family: "Fira Mono", monospace;
+  	font-weight: 400;
+  	font-style: normal;
+	
+}
+
+.buscador input{
+	border: none;
+	background-color: #ffffff00;
+	margin-left: 20px;
+	font-size: 20px;
+	width: 1000px;
+}
+
+.buscador input:focus{
+	outline: none;
+	background-color: #ffffff00;
+	font-size: 20px;
+}
+
+.sign{
+	height: 100%;
+}
+
+.sign button{
+	height: 100%;
+	width: 100px;
+	background-color: #ffffff00;
+}
+
+.signUp{
+	border: 1px #0000002a solid;
+}
+
+.signIn{
+	border: none;
+}
+
+/*Primera Seccion*/
+.mainSection{
+	height: 810px;
+	background-image: url("../assets/img/backgoundcolours.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blackSection{
+	background-color: #0000002a;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.textSection {
+	width: 28%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	color: white;
+	gap: 35px;
+}
+
+.textSection h1 {
+	font-size: 90px;
+	font-weight: bold;
+}
+
+.textSection h2{
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.textSection p{
+	font-size: 18px;
+}
+
+.buttonSection button {
+	height: 60px;
+	width: 250px;
+	border-radius: 50px;
+	margin: 5px;
+}
+
+.buttonSection button:nth-child(1) {
+	background-color: #ffc329;
+	font-style: bold;
+	border: none;
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.219);
+}
+
+.buttonSection button:nth-child(2) {
+	background-color: rgba(255, 255, 255, 0);
+	border-color: white;
+	color: white;
+}
+
+/*Segunda Seccion*/
+
+.secondSection{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+.textSection2{
+	width: 28%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.textSection2 img{
+	width: 120px;
+}
+
+.textSection2 h2{
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.textSection2 p{
+	font-size: 18px;
+}
+
+/*Footer*/
+
+footer{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	padding: 50px;
+	gap: 50px;
+	border-top: 1px #0000002a solid;
+}
+
+.imagenes{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-right: 40px;
+	margin-left: 200px;
+}
+
+.imagenes img{
+	width: 50px;
+}
+
+.listas{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 400px;
+}
+
+.listas ul li{
+	font-size: 18px;
+	padding: 10px;
+}
+
+.listas ul span{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/*Atencion al publico*/
+.comunicacion{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	background-color: #FF00FF;
+	border-radius: 50px;
+	height: 80px;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.comunicacion img{
+	width: 60%;
+}
